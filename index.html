@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   * {box-sizing: border-box;}
+   
+   body { 
+    font-family: Figtree, sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1440px;
+    height: 960px;
+    background-color: hsl(47, 88%, 63%);
+   }
+
+   .card {
+    height: 522px;
+    width: 384px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid;
+    box-shadow: 10px 10px 0px;
+   }
+
+   #illustration-article {
+    width: 336px;
+    display: block;
+    margin-top: 24px;
+    margin-left: 24px;  
+    border-radius: 10px;
+   }
+
+   .learning {
+    width: 336px;
+    height: 194px;
+    margin-left: 24px;
+    margin-top: 24px;
+   }
+
+   .span {
+    display: flex;
+    width: 82px;
+    height: 29px;
+    border-radius: 8px;
+    background-color: hsl(47, 88%, 63%);
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+   }
+
+   #p1 {
+    font-size: 14px;
+   }
+
+   #p3 {
+    color: hsl(0, 0%, 50%);
+   }
+
+   #p2 {
+    font-size: 24px;
+    font-weight: 900;
+   }
+  
+   .avatar {
+    display: flex;
+    width: 129px;
+    height: 32px;
+    margin-left: 24px;
+    margin-top: 24px;
+   }
+
+   #avatar {
+    margin-right: 5px;
+   }
+
+   #p4 {
+    font-size: 14px;
+    padding-top: 8px;
+    padding-left: 5px;
+    font-weight: bold;
+    
+   }
+
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img id="illustration-article" src="illustration-article.svg" alt="illustration-article">
+  
+    <div class="learning">
+    <div class="span"><p>Learning</p></div>
+
+    <p id="p1" class="paragraph">Published 21 Dec 2023</p>
+
+    <p id="p2" class="paragraph">HTML & CSS foundations</p>
+
+    <p id="p3" class="paragraph">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+    </div>
+
+    <div class="avatar">
+    <img id="avatar" src="image-avatar.webp">
+    <span id="p4">Greg Hooper</span>
+    </div>
+
+    </div>
+    
+</div>
+  
+</body>
+</html>
